@@ -1,0 +1,78 @@
+:root {
+    --mainColor : #252734;
+    --secondaryColor : #333646;
+    --ascentColor : #ff9100;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color-ascent {
+    color: var(--ascentColor);
+}
+
+section h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+#addis {
+    color: #fff;
+    min-height: 100vh
+}
+
+#addis h1 {
+    font-size: 3rem;
+}
+
+#addis h2 {
+    font-weight: 300;
+}
+
+#addis p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.btn-custom1 {
+    background-color: var(--ascentColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+#pengalaman img {
+    margin: 70px;
+}
+
+#skill img {
+    margin: 15px;
+}
+
+#sertifikat {
+    margin-top: -170px;
+    padding: 270px;
+    padding-bottom: 80px;
+    background-color: var(--secondaryColor);
+}
+
+#sertifikat img {
+    width: 45%;
+    margin: 10px;
+}
